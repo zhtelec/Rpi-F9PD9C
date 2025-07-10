@@ -16,4 +16,7 @@ the multi GNSS receiver and the MICHIBIKI L6 receiver board. this board is easy 
 + [NEO-F9P_Fw101_00_init921600.txt](conf/NEO-F9P_Fw101_00_init921600.txt)
 
 ## Examples (code, setup, etc)
-+ [checkSerialAll.sh](examples/checkSerialAll.sh) UARTs, PPS, および PWREN の接続確認
++ [initGnss.sh](examples/initGnss.sh) UART設定, RTLIB の install,ubxtool 921600bps対応,etc
++ [checkSerialAll.sh](examples/checkSerialAll.sh) UARTs, PPS, および PWREN の接続確認 (Raspberry Pi5 の USB と Rpi-F9PD9C の USB を接続してください)
++ [setClasAssistance.sh](examples/setClasAssistance.sh) 基板上の NEO-D9C の CLAS 補助信号を ZED-F9P に流しこみ RTK をする
++ [setNtripAssistanceFromCQ.sh](examples/setNtripAssistanceFromCQ.sh.sh) 基準局を CQ 出版社として NTRIP で RTCM3 を受信して RTK をする
